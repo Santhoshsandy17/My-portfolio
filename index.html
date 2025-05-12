@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="Santhosh G - Full Stack Developer portfolio showcasing skills, projects, and contact info." name="description"/>
+<title>Santhosh G | Full Stack Developer</title>
+<link href="styles.css" rel="stylesheet"/>
+<script defer="" src="script.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+</link></head>
+<body class="bg-white text-dark">
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top animate__animated animate__fadeInDown">
+<div class="container-fluid">
+<a class="navbar-brand" href="#home">Santhosh G</a>
+<button class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+<li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+<li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+</ul>
+<button class="btn btn-outline-light ms-3" id="darkToggle">Dark Mode</button>
+</div>
+</div>
+</nav>
+<!-- Hero Section -->
+<section class="hero d-flex align-items-center justify-content-center bg-primary text-white vh-100 animate__animated animate__fadeIn" id="home">
+<div class="text-center">
+<h1 class="display-4">Hi, I'm Santhosh G</h1>
+<p class="lead">Full Stack Web Developer</p>
+<a class="btn btn-light" href="#contact">Hire Me</a>
+<a class="btn btn-outline-light mt-3" download="" href="resume.pdf">Download Resume</a>
+</div>
+</section>
+<!-- About Section -->
+<section class="container py-5 animate__animated animate__fadeInUp" id="about">
+<h2 class="text-center mb-4">About Me</h2>
+<p class="text-center">I'm a passionate full stack developer skilled in Python, HTML, CSS, JavaScript, Node.js, and Bootstrap. I love building responsive, user-friendly web applications and learning new technologies.</p>
+</section>
+<!-- Skills Section -->
+<section class="bg-light py-5 animate__animated animate__fadeInUp" id="skills">
+<div class="container">
+<h2 class="text-center mb-4">Skills</h2>
+<div class="row text-center">
+<div class="col-md-2"><i class="fab fa-python"></i><br/>Python</div>
+<div class="col-md-2"><i class="fab fa-html5"></i><br/>HTML</div>
+<div class="col-md-2"><i class="fab fa-css3-alt"></i><br/>CSS</div>
+<div class="col-md-2"><i class="fab fa-js"></i><br/>JavaScript</div>
+<div class="col-md-2"><i class="fab fa-node-js"></i><br/>Node.js</div>
+<div class="col-md-2"><i class="fas fa-database"></i><br/>SQL</div>
+</div>
+</div>
+</section>
+<!-- Projects Section -->
+<section class="container py-5 animate__animated animate__fadeInUp" id="projects">
+<h2 class="text-center mb-4">Projects</h2>
+<div class="row g-4">
+<div class="col-md-6">
+<div class="card h-100">
+<div class="card-body">
+<h5 class="card-title">Bus Reservation System</h5>
+<p class="card-text">Developed using Python and GitHub to automate bus ticket bookings and schedules.</p>
+<p><a href="https://github.com/Santhoshsandy17" target="_blank">GitHub</a></p>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card h-100">
+<div class="card-body">
+<h5 class="card-title">Suicidal Thought Detection (NLP)</h5>
+<p class="card-text">Used NLP to detect distress from user text to assist in mental health monitoring.</p>
+<p><a href="https://github.com/Santhoshsandy17" target="_blank">GitHub</a></p>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card h-100">
+<div class="card-body">
+<h5 class="card-title">Human Tracking with UAV (OpenCV)</h5>
+<p class="card-text">Real-time detection and counting of humans using UAV and OpenCV for rescue ops.</p>
+<p><a href="https://github.com/Santhoshsandy17" target="_blank">GitHub</a></p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+
+<section class="container py-5 animate__animated animate__fadeInUp" id="contact">
+<h2 class="text-center mb-4">Contact Me</h2>
+<form action="https://formspree.io/f/yourformid" class="mx-auto needs-validation" method="POST" novalidate="" style="max-width: 600px;">
+<div class="mb-3 text-start">
+<label class="form-label" for="name">Name</label>
+<input class="form-control" name="name" placeholder="Your Name" required="" type="text"/>
+<div class="invalid-feedback">Please enter your name.</div>
+</div>
+<div class="mb-3 text-start">
+<label class="form-label" for="email">Email</label>
+<input class="form-control" name="email" placeholder="Your Email" required="" type="email"/>
+<div class="invalid-feedback">Please enter a valid email.</div>
+</div>
+<div class="mb-3 text-start">
+<label class="form-label" for="message">Message</label>
+<textarea class="form-control" name="message" placeholder="Your Message" required="" rows="4"></textarea>
+<div class="invalid-feedback">Please enter a message.</div>
+</div>
+<button class="btn btn-primary" type="submit">Send Message</button>
+<p class="form-message mt-2 text-success" style="display:none;">Message sent successfully!</p>
+</form>
+</section>
+
+<!-- Scroll to Top Button -->
+<button id="topBtn" title="Go to top">⇧</button>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typeit@8.0.7/dist/index.umd.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
